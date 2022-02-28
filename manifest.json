@@ -12,7 +12,10 @@
 
   "content_scripts": [
     {
-      "matches": ["https://www.onlineKhabar.com/*"],
+      "matches": [
+        "https://www.onlineKhabar.com/*",
+        "https://english.onlinekhabar.com/*"
+      ],
       "js": ["app.js"]
     }
   ]
