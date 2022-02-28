@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "OnlineKhabar AdBlocker",
+  "description": "Block stupid ads on onlineKhabar.com news site",
+  "version": "0.0.1",
+
+  "icons": {
+    "16": "images/stop.png",
+    "48": "images/stop.png",
+    "128": "images/stop.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.onlineKhabar.com/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
