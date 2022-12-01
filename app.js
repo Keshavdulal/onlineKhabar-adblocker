@@ -1,18 +1,5 @@
 const origin = window?.location?.origin;
 
-// Onlinekhabar
-// Ekantipur
-// Setopati Online
-// Ratopati
-
-// 1 The Himalayan Times // not working properly
-
-// Republica
-// Nepal News
-// The Kathmandu Post
-// Gorkhapatra Online
-// nagarik
-
 const conditions = {
   onlineKhabar: ["div[class*='roadblock']", "div[class*='-ad']"],
   ekantipur: [
