@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "OnlineKhabar AdBlocker",
-  "description": "Block stupid ads on onlineKhabar.com news site",
-  "version": "0.0.1",
+  "name": "Nepali Adblocker",
+  "description": "Block stupid ads on major Nepali news sites and portals",
+  "version": "0.0.3",
 
   "icons": {
     "16": "images/stop.png",
@@ -14,7 +14,15 @@
     {
       "matches": [
         "https://www.onlineKhabar.com/*",
-        "https://english.onlinekhabar.com/*"
+        "https://english.onlinekhabar.com/*",
+        "https://ekantipur.com/*",
+        "https://www.setopati.com/*",
+        "https://en.setopati.com/*",
+        "https://www.hamropatro.com/*",
+        "https://english.hamropatro.com/*",
+        "https://thehimalayantimes.com/*",
+        "https://ratopati.com/*",
+        "https://english.ratopati.com/*"
       ],
       "js": ["app.js"]
     }
