@@ -24,11 +24,13 @@ Block Stupid Annoying GIF Ads on Major Nepali News Portals and Sites.
 
 - [X] https://english.ratopati.com/*
 
+- [X] https://kathmandupost.com/*
+
+- [X] https://nagariknews.nagariknetwork.com/*
+
 ## Support Pending Domains in Pipeline
 
 - Republica
 - Nepal News
-- The Kathmandu Post
 - Gorkhapatra Online
-- Nagarik
 - Himalayan Times

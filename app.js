@@ -11,6 +11,14 @@ const conditions = {
   hamroPatro: ["a[href*='https://creative.hamropatro.com/dest/']"],
   himalayanTimes: ["div[class*='fc-dialog-container']"],
   ratoPati: ["a"],
+  kathmanduPost: [
+    "img[src^='https://assets-cdn.kathmandupost.com/uploads/source/ads/']", // Self hosted ads
+    "ins[class*='adsbygoogle']" // Google Ads
+  ],
+  nagarikNews: [
+    "div[class*='ads']",
+    "div[class*='alert-dismissible']"
+  ]
 };
 
 const blockAdsOn = (conditionsArray, domainFilter = "") => {
@@ -65,6 +73,14 @@ switch (origin) {
 
   case "https://ratopati.com":
     blockAdsOn(conditions?.ratoPati, "ratopati");
+    break;
+
+  case "https://kathmandupost.com/":
+    blockAdsOn(conditions?.kathmanduPost,);
+    break;
+
+  case "https://nagariknews.nagariknetwork.com/":
+    blockAdsOn(conditions?.nagarikNews,);
     break;
 
   default:
