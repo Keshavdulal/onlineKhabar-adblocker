@@ -14,7 +14,8 @@ const conditions = {
     "div[class*='full_ad']",
     "ins[class*='adsbygoogle']",
     "div[class*='ht-taboola-feed']",
-    "div[class*='ht-vertical-ad-sidebar ']",
+    "div[class*='TABOULA']",
+    "div[class*='ht-vertical-ad-sidebar']",
 
   ],
   ratoPati: ["a"],
