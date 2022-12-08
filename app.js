@@ -9,7 +9,14 @@ const conditions = {
   ],
   setoPati: ["div[class*='full-bigyaapan']", "div[class*='top-bigyaapan']"],
   hamroPatro: ["a[href*='https://creative.hamropatro.com/dest/']"],
-  himalayanTimes: ["div[class*='fc-dialog-container']"],
+  himalayanTimes: [
+    "div[class*='fc-dialog-container']",
+    "div[class*='full_ad']",
+    "ins[class*='adsbygoogle']",
+    "div[class*='ht-taboola-feed']",
+    "div[class*='ht-vertical-ad-sidebar ']",
+
+  ],
   ratoPati: ["a"],
   kathmanduPost: [
     "img[src^='https://assets-cdn.kathmandupost.com/uploads/source/ads/']", // Self hosted ads
