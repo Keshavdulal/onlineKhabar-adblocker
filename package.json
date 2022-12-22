@@ -1,0 +1,20 @@
+{
+  "name": "onlinekhabar-adblocker",
+  "version": "1.0.0",
+  "description": "We cannot block stupidity but sure can block stupid annoying GIF Ads. Currently supporting Major Nepali News Portals and Sites.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keshavdulal/onlineKhabar-adblocker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keshavdulal/onlineKhabar-adblocker/issues"
+  },
+  "homepage": "https://github.com/Keshavdulal/onlineKhabar-adblocker#readme"
+}
