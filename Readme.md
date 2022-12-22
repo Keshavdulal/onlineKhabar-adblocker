@@ -1,32 +1,44 @@
 # Nepali Adblocker
 
-Block Stupid Annoying GIF Ads on Major Nepali News Portals and Sites.
+We cannot block stupidity but sure can block stupid annoying GIF Ads. Currently supporting Major Nepali News Portals and Sites.
+
+## Hamropatro
+
+![Hamropatro](/images/hamropatro.jpg)
+
+## Online Khabar
+
+![Online Khabar](/images/onlinekhabar.jpg)
+
+## Ratopati
+
+![Online Khabar](/images/ratopati.jpg)
 
 ## Supported Domains
 
-- [X] https://www.onlineKhabar.com/*
+- [x] https://www.onlineKhabar.com/*
 
-- [X] https://english.onlinekhabar.com/*
+- [x] https://english.onlinekhabar.com/*
 
-- [X] https://ekantipur.com/*
+- [x] https://ekantipur.com/*
 
-- [X] https://www.setopati.com/*
+- [x] https://www.setopati.com/*
 
-- [X] https://en.setopati.com/*
+- [x] https://en.setopati.com/*
 
-- [X] https://www.hamropatro.com/*
+- [x] https://www.hamropatro.com/*
 
-- [X] https://english.hamropatro.com/*
+- [x] https://english.hamropatro.com/*
 
-- [X] https://thehimalayantimes.com/*
+- [x] https://thehimalayantimes.com/*
 
-- [X] https://ratopati.com/*
+- [x] https://ratopati.com/*
 
-- [X] https://english.ratopati.com/*
+- [x] https://english.ratopati.com/*
 
-- [X] https://kathmandupost.com/*
+- [x] https://kathmandupost.com/*
 
-- [X] https://nagariknews.nagariknetwork.com/*
+- [x] https://nagariknews.nagariknetwork.com/*
 
 ## Support Pending Domains in Pipeline
 
@@ -34,3 +46,7 @@ Block Stupid Annoying GIF Ads on Major Nepali News Portals and Sites.
 - Nepal News
 - Gorkhapatra Online
 - Himalayan Times
+
+### Ways to Support
+
+<a href="https://www.buymeacoffee.com/keshavdulal" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
