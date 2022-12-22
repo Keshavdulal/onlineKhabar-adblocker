@@ -1,4 +1,5 @@
 const origin = window?.location?.origin;
+console.log(`Nepali Adblocker Loaded on - ${origin}`);
 
 const conditions = {
   onlineKhabar: ["div[class*='roadblock']", "div[class*='-ad']"],
@@ -20,7 +21,9 @@ const blockAdsOn = (conditionsArray, domainFilter = "") => {
     (i, acc) => acc + ", " + i
   );
 
-  // console.log(`Generated blocking condtion string - ${genericConditionString}`);
+  console.log(
+    `Generated blocking condition string - ${genericConditionString}`
+  );
 
   document.querySelectorAll(genericConditionString).forEach((i) => {
     if (domainFilter) {
@@ -39,17 +42,17 @@ const blockAdsOn = (conditionsArray, domainFilter = "") => {
 };
 
 switch (origin) {
-  case "https://www.onlineKhabar.com/":
-  case "https://english.onlinekhabar.com/":
+  case "https://www.onlineKhabar.com":
+  case "https://english.onlinekhabar.com":
     blockAdsOn(conditions?.onlineKhabar);
     break;
 
   case "https://www.setopati.com":
-  case "https://en.setopati.com/":
+  case "https://en.setopati.com":
     blockAdsOn(conditions?.setoPati);
     break;
 
-  case "https://ekantipur.com/":
+  case "https://ekantipur.com":
     blockAdsOn(conditions?.ekantipur);
     break;
 
