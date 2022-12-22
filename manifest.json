@@ -22,7 +22,9 @@
         "https://english.hamropatro.com/*",
         "https://thehimalayantimes.com/*",
         "https://ratopati.com/*",
-        "https://english.ratopati.com/*"
+        "https://english.ratopati.com/*",
+        "https://kathmandupost.com/*",
+        "https://nagariknews.nagariknetwork.com/*"
       ],
       "js": ["app.js"]
     }
