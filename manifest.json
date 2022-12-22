@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Nepali Adblocker",
-  "description": "Block stupid ads on major Nepali news sites and portals",
+  "description": "Block stupid ads on major Nepali news sites and portals such as OnlineKhabar, EKantipur, SetoPati, HamroPatro, Ratopati. Incorporating support on more.",
   "version": "0.0.3",
 
   "icons": {
