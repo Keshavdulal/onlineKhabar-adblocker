@@ -26,7 +26,7 @@
         "https://kathmandupost.com/*",
         "https://nagariknews.nagariknetwork.com/*"
       ],
-      "js": ["app.js"]
+      "js": ["dist/index.js"]
     }
   ]
 }
